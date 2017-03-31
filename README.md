@@ -3,4 +3,4 @@ Bias correction methods that have been adopted in this training manual have been
 
 If you would like to use this resource, here is the reference:
 
-# Rushi, B.R., Adams, E.C., Roy, T. Valdes, R.M., Valdes,J.B.,Ellenburg,W.L., Anderson, E., Markert, K.N., Florescordova, A. (In Preparation). Bias Correction of Satellite Precipitation using Open Source Integrated Development Environment . The Earth Observer. 
+# Rushi, B.R., Adams, E.C., Roy, T. Valdes, R.M., Valdes,J.B.,Ellenburg,W.L., Anderson, E., Markert, K.N., Florescordova, A., Limaye, A. (In Preparation). Bias Correction of Satellite Precipitation using Open Source Integrated Development Environment . The Earth Observer. 
