@@ -7,7 +7,7 @@
 
 rm(list = ls())
 
-library("optparse")
+library("optparse","rgdal")
 
 #!/usr/bin/env Rscript
 option_list = list(
