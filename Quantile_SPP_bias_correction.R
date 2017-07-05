@@ -211,7 +211,7 @@ corrected_spp_daily <- as.matrix(GammaCDF_sat[,,kk])
  class(rb)
 
  # replace with correct coordinates
- extent(rb) <- c(82,98,23.75,31.5)
+ extent(rb) <- c(34.75,36,-0.5,0.1)
  
  
  correct_folder<-paste(opt$corrected_output,sep="")
