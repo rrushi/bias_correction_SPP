@@ -7,25 +7,26 @@
 
 
 
+
 rm(list = ls())
 
-library("optparse","rgdal")
+library("optparse", "rgdal")
 
 #!/usr/bin/env Rscript
 option_list = list(
-  make_option(c("-i", "--chirps"), type="character", default="C:/biased_correction/chirps/", 
+  make_option(c("-i", "--chirps"), type="character", default="C:/biased_correction_Final/Test_Data_Set/Nyando/chirps/", 
               help="input folder directory [default= %default]", metavar="character"),
-  make_option(c("-l", "--lat_lon"), type="character", default="C:/biased_correction/NCDC_point_available.csv", 
+  make_option(c("-l", "--lat_lon"), type="character", default="C:/biased_correction_Final/Test_Data_Set/Nyando/NCDC_point_available.csv", 
               help="observed folder directory [default= %default]", metavar="character"),
-  make_option(c("-o", "--observed"), type="character", default="C:/biased_correction/observed/", 
+  make_option(c("-o", "--observed"), type="character", default="C:/biased_correction_Final/Test_Data_Set/Nyando/observed/", 
               help="observed folder directory [default= %default]", metavar="character"),
   make_option(c("-Y", "--Year"), type="integer", default="2015", 
               help=" starting year[default= %default]", metavar="integer"),
   make_option(c("-N", "--End_Year"), type="integer", default="2015", 
               help=" End year[default= %default]", metavar="integer"),
-  make_option(c("-p", "--comparison"), type="character", default="C:/biased_correction/chirps_obs_daily_comparison/", 
+  make_option(c("-p", "--comparison"), type="character", default="C:/biased_correction_Final/Test_Data_Set/Nyando/chirps_obs_daily_comparison/", 
               help="output comparison directory [default= %default]", metavar="character"),
-  make_option(c("-c", "--output"), type="character", default="C:/biased_correction/corrected_chirps/", 
+  make_option(c("-c", "--output"), type="character", default="C:/biased_correction_Final/Test_Data_Set/Nyando/corrected_chirps/", 
               help="output folder directory [default= %default]", metavar="character")
 )
 
