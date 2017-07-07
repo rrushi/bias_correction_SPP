@@ -48,7 +48,7 @@ library(invgamma)
 
 
 years<-c(opt$Year:opt$End_Year)
-mon<-c(1)
+mon<-c(1:12)
 month_names<-c("Jan","Feb","Mar","Apr","May","Jun","July","Aug","Sep","Nov","Dec")
 
 
