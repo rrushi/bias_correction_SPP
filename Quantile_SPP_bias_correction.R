@@ -11,15 +11,15 @@ library("optparse","rgdal")
 
 #!/usr/bin/env Rscript
 option_list = list(
-  make_option(c("-o", "--corrected_chirps"), type="character", default="C:/biased_correction_Final/Test_Data_Set/Nyando/chirps/", 
+  make_option(c("-o", "--corrected_chirps"), type="character", default="C:/bias_correction_SPP/Test_Data_Set/Nyando/chirps/", 
               help="input folder directory [default= %default]", metavar="character"),
-  make_option(c("-i", "--persian"), type="character", default="C:/biased_correction_Final/Test_Data_Set/Nyando/persian/", 
+  make_option(c("-i", "--persian"), type="character", default="C:/bias_correction_SPP/Test_Data_Set/Nyando/persian/", 
               help="observed folder directory [default= %default]", metavar="character"),
   make_option(c("-Y", "--Year"), type="integer", default="2015", 
               help=" starting year[default= %default]", metavar="integer"),
   make_option(c("-N", "--End_Year"), type="integer", default="2015", 
               help=" End year[default= %default]", metavar="integer"),
-  make_option(c("-c", "--corrected_output"), type="character", default="C:/biased_correction_Final/Test_Data_Set/Nyando/corrected_persian_quantile/", 
+  make_option(c("-c", "--corrected_output"), type="character", default="C:/bias_correction_SPP/Test_Data_Set/Nyando/corrected_persian_quantile/", 
               help="output folder directory [default= %default]", metavar="character")
 )
 
